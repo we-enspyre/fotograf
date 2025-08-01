@@ -1,0 +1,5 @@
+<script>
+  // Redirect from GitHub Pages 404s back to client-side routing
+  const redirect = location.pathname.replace(/^\/fotograf/, '');
+  location.replace('/fotograf/' + redirect);
+</script>
