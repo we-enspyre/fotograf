@@ -12,6 +12,7 @@ const Hero = () => {
           src={heroImage}
           alt="Wedding photography by Emilie Nørgaard"
           className="w-full h-full object-cover"
+           
         />
         <div className="absolute inset-0 bg-gradient-hero" />
       </div>
@@ -21,7 +22,7 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <div className="flex items-center justify-center mb-6">
             <Camera className="w-10 h-10 text-gold mr-4" />
-            <span className="text-gold font-bold text-3xl sm:text-4xl font-display tracking-wide">Nørgaard Visuals</span>
+            <span className="text-white font-bold text-3xl sm:text-4xl font-display tracking-wide">Nørgaard Visuals</span>
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-display font-light text-white mb-6 leading-tight">

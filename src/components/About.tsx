@@ -20,7 +20,7 @@ const About = () => {
               <img
                 src={emiliePortrait}
                 alt="Emilie Nørgaard - Photographer"
-                className="w-full h-[600px] object-cover rounded-2xl shadow-elegant"
+                className="w-full h-[800px] object-cover rounded-2xl shadow-elegant"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-gold rounded-2xl flex items-center justify-center shadow-gold">
                 <Camera className="w-12 h-12 text-white" />
