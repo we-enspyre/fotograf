@@ -20,10 +20,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
-          <div className="flex items-center justify-center mb-6">
+          {/* <div className="flex items-center justify-center mb-6">
             <Camera className="w-10 h-10 text-gold mr-4" />
             <span className="text-white font-bold text-3xl sm:text-4xl font-display tracking-wide">Nørgaard Visuals</span>
-          </div>
+          </div> */}
           
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-display font-light text-white mb-6 leading-tight">
             Capturing
