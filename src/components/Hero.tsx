@@ -53,7 +53,7 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               onClick={() => scrollToSection('portfolio')}
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm font-medium px-8 py-4 rounded-full transition-all duration-300 hover:scale-105"
+              className="bg-white/10 border-white/30 text-white backdrop-blur-sm font-medium px-8 py-4 rounded-full transition-all duration-300 hover:scale-105"
             >
               View Portfolio
             </Button>
