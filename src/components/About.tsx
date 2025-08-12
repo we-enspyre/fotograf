@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Camera, Heart, Star, Award } from "lucide-react";
-import emiliePortrait from "@/assets/emilie-portrait.jpg";
+import emiliePortrait from "@/assets/about.jpg";
 
 const About = () => {
   const achievements = [

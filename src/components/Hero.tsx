@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Camera, ArrowRight } from "lucide-react";
 import { scrollToSection } from "@/utils/scroll";
-import heroImage from "@/assets/hero-portfolio.jpg";
+import heroImage from "@/assets/wedding3.jpg";
 
 const Hero = () => {
   return (
@@ -20,10 +20,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
-          {/* <div className="flex items-center justify-center mb-6">
+          <div className="flex items-center justify-center mb-6">
             <Camera className="w-10 h-10 text-gold mr-4" />
             <span className="text-white font-bold text-3xl sm:text-4xl font-display tracking-wide">Nørgaard Visuals</span>
-          </div> */}
+          </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-display font-light text-white mb-6 leading-tight">
             Capturing
@@ -32,13 +32,13 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl sm:text-2xl text-white/90 mb-8 font-light max-w-2xl mx-auto">
+          {/* <p className="text-xl sm:text-2xl text-white mb-8 font-light max-w-2xl mx-auto">
             Emilie Nørgaard — Aarhus-based Photographer
-          </p>
+          </p> */}
           
-          <p className="text-lg text-white/80 mb-12 max-w-xl mx-auto font-light">
+          {/* <p className="text-lg text-white mb-12 max-w-xl mx-auto font-light">
             Creating elegant, artistic photography that tells your unique story with warmth and authenticity.
-          </p>
+          </p> */}
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 

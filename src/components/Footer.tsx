@@ -1,4 +1,5 @@
 import { Camera, Heart, Instagram, Facebook, Mail, Phone } from "lucide-react";
+import enspyreLogo from "@/assets/enspyre-logo.png";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
               <span className="text-2xl font-display font-semibold">Nørgaard Visuals</span>
             </div>
             <p className="text-white/80 leading-relaxed mb-6 max-w-md">
-              Capturing timeless moments with artistic vision and authentic emotion. 
+              Capturing timeless moments with artistic vision and authentic emotion.
               Based in Aarhus, creating beautiful memories throughout Denmark and beyond.
             </p>
             <div className="flex space-x-4">
@@ -66,7 +67,12 @@ const Footer = () => {
             © 2024 Nørgaard Visuals. All rights reserved.
           </div>
           <div className="flex items-center text-white/60 text-sm">
-            Made with <Heart className="w-4 h-4 mx-2 text-gold fill-gold" /> by Emilie Nørgaard
+            <img
+              src={enspyreLogo}
+              alt="Enspyre Logo"
+              className="w-6 h-6 rounded-full mx-2"
+            />
+            ENSPYRE
           </div>
         </div>
       </div>

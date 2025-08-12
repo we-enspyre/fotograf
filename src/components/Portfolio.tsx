@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import weddingImage from "@/assets/portfolio-wedding-1.jpg";
-import portraitImage from "@/assets/portfolio-portrait-1.jpg";
-import eventImage from "@/assets/portfolio-event-1.jpg";
+import weddingImage from "@/assets/wedding.jpg";
+import portraitImage from "@/assets/wedding4.jpg";
+import eventImage from "@/assets/corp.jpg";
 import travelImage from "@/assets/portfolio-travel-1.jpg";
 
 const portfolioItems = [
