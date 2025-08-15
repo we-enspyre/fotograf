@@ -1,5 +1,5 @@
 import { Camera, Heart, Instagram, Facebook, Mail, Phone } from "lucide-react";
-import enspyreLogo from "@/assets/enspyre-logo.png";
+import enspyreLogo from "@/assets/enspyre-logo.svg";
 
 const Footer = () => {
   return (
