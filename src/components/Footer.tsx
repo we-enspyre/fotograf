@@ -66,14 +66,19 @@ const Footer = () => {
           <div className="text-white/60 text-sm mb-4 md:mb-0">
             © 2024 Nørgaard Visuals. All rights reserved.
           </div>
-          <div className="flex items-center text-white/60 text-sm">
-            <img
+            <a
+              href="https://enspyre.dk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-white/60 text-sm"
+            >
+              <img
               src={enspyreLogo}
               alt="Enspyre Logo"
               className="w-6 h-6 rounded-full mx-2"
-            />
-            ENSPYRE
-          </div>
+              />
+              ENSPYRE
+            </a>
         </div>
       </div>
     </footer>
