@@ -75,7 +75,7 @@ const Footer = () => {
               <img
               src={enspyreLogo}
               alt="Enspyre Logo"
-              className="w-6 h-6 rounded-full mx-2"
+              className="w-12 h-12 rounded-full mx-2"
               />
               ENSPYRE
             </a>
